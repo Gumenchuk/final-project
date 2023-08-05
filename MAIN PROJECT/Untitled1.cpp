@@ -5,7 +5,7 @@
 
 using namespace std;
 int main(){
-  fstream file("C://it-academy//MAIN PROJECT//main//cart(purchase)//index.html");
+  fstream file("main//cart(purchase)//index.html");
   ofstream file_copy("temp.file");
   string s;
   while(file.good()){
@@ -15,7 +15,7 @@ int main(){
   file.close();
   file_copy.close();
   fstream file_read("temp.file");
-  ofstream file_write("C://it-academy//MAIN PROJECT//main//cart(purchase)//index.html");
+  ofstream file_write("main//cart(purchase)//index.html");
   int k;
   string kurs;
   cin>>kurs;
